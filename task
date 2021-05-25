@@ -1,0 +1,24 @@
+can braows the program using
+    model
+    manu date
+    color
+
+
+
+
+    print("You want to know about our", bmw.get_model(model_selection))
+            print('This car was remodeled one time.\nSo we have two types of', bmw.get_model(model_selection))
+            print(bmw.show_manufacturing_date())
+
+            m_date = int(input(BColors.Underlined +
+                               "Please make your decision:" + BColors.ResetAll)) - 1
+
+            if m_date == 0:
+                print('The', bmw.get_model(model_selection), ' ', bmw.get_manufacturing_date(m_date),
+                      ' is available in', bmw.show_color())
+            elif m_date == 1:
+                print('The', bmw.get_model(model_selection), ' ', bmw.get_manufacturing_date(m_date),
+                      ' is available in', bmw.show_color())
+            else:
+                print('INVALID')
+                continue
